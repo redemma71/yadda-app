@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greeting
-        run: echo "wassup, bmore!"
+        run: | 
+          echo "echo "wassup, bmore!"
+          echo "hello, world"
+          echo "hola, amigo!"
       - name: Print Goodbye
         run: echo "have a good one, bmore!"
