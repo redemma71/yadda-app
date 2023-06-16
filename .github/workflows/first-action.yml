@@ -6,8 +6,7 @@ jobs:
     steps:
       - name: Print Greeting
         run: | 
-          echo "echo "wassup, bmore!"
           echo "hello, world"
-          echo "hola, amigo!"
+          echo echo "echo "wassup, bmore!"
       - name: Print Goodbye
         run: echo "have a good one, bmore!"
